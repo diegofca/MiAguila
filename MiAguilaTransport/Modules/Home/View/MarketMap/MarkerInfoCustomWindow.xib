@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MarkerInfoCustomWindow" customModule="MiAguilaTransport" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cde-m0-Cpq">
+                    <rect key="frame" x="8" y="8" width="184" height="184"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Jw-ec-BAJ">
+                            <rect key="frame" x="4" y="108" width="176" height="14.5"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ans-PN-xO2">
+                            <rect key="frame" x="8" y="130.5" width="168" height="27"/>
+                            <color key="backgroundColor" red="0.21960784310000001" green="0.82352941180000006" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                            <state key="normal" title="Ver detalle">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <real key="value" value="13.5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_eagle" translatesAutoresizingMaskIntoConstraints="NO" id="Egr-bz-Xfr">
+                            <rect key="frame" x="0.0" y="0.0" width="184" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="xwY-Eg-ieo"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ans-PN-xO2" secondAttribute="trailing" constant="8" id="2YT-ed-3WP"/>
+                        <constraint firstItem="9Jw-ec-BAJ" firstAttribute="leading" secondItem="cde-m0-Cpq" secondAttribute="leading" constant="4" id="4gH-jc-dRq"/>
+                        <constraint firstAttribute="trailing" secondItem="Egr-bz-Xfr" secondAttribute="trailing" id="6Ab-2l-g82"/>
+                        <constraint firstAttribute="trailing" secondItem="9Jw-ec-BAJ" secondAttribute="trailing" constant="4" id="8dQ-Oe-Q02"/>
+                        <constraint firstItem="ans-PN-xO2" firstAttribute="leading" secondItem="cde-m0-Cpq" secondAttribute="leading" constant="8" id="A4C-ry-Pe9"/>
+                        <constraint firstItem="Egr-bz-Xfr" firstAttribute="leading" secondItem="cde-m0-Cpq" secondAttribute="leading" id="OlQ-UC-tBA"/>
+                        <constraint firstItem="ans-PN-xO2" firstAttribute="top" secondItem="9Jw-ec-BAJ" secondAttribute="bottom" constant="8" id="SvD-uK-aEy"/>
+                        <constraint firstItem="9Jw-ec-BAJ" firstAttribute="top" secondItem="Egr-bz-Xfr" secondAttribute="bottom" constant="8" id="W2d-M3-BZz"/>
+                        <constraint firstItem="Egr-bz-Xfr" firstAttribute="top" secondItem="cde-m0-Cpq" secondAttribute="top" id="edQ-pa-Odp"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                        <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                            <size key="value" width="0.0" height="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                            <real key="value" value="0.20000000000000001"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cde-m0-Cpq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="7zX-tY-tQD"/>
+                <constraint firstItem="cde-m0-Cpq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Y62-oW-tdu"/>
+                <constraint firstAttribute="trailing" secondItem="cde-m0-Cpq" secondAttribute="trailing" constant="8" id="olz-qK-tTJ"/>
+                <constraint firstAttribute="bottom" secondItem="cde-m0-Cpq" secondAttribute="bottom" constant="8" id="zrs-lr-9hG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="priceLbl" destination="9Jw-ec-BAJ" id="uhc-d7-M7U"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_eagle" width="361.5" height="352.5"/>
+    </resources>
+</document>

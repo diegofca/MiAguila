@@ -3,18 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006C116437B08477C9106688 /* Pods_MiAguilaTransportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F039F6AE7687FC9470AF9248 /* Pods_MiAguilaTransportUITests.framework */; };
+		0684DB36C9EA7137983C426B /* Pods_MiAguilaTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C166DA2FAE6D27CFC4630AC /* Pods_MiAguilaTransport.framework */; };
+		3D6C62B32C3E315D1A04FD3B /* Pods_MiAguilaTransportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0014E9A6C8BF84D77B4A59F2 /* Pods_MiAguilaTransportTests.framework */; };
+		B733D00222EE9AF6008BD4A5 /* RouteDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B733D00122EE9AF6008BD4A5 /* RouteDetailInteractor.swift */; };
+		B733D00622EEAC26008BD4A5 /* MarkerInfoCustomWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B733D00522EEAC26008BD4A5 /* MarkerInfoCustomWindow.xib */; };
+		B733D00822EEB0AF008BD4A5 /* MarkerInfoCustomWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B733D00722EEB0AF008BD4A5 /* MarkerInfoCustomWindow.swift */; };
+		B734A28222ED5B3D00871424 /* MarketMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = B734A28122ED5B3D00871424 /* MarketMap.xib */; };
+		B734A28422ED5B8B00871424 /* MarketMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734A28322ED5B8B00871424 /* MarketMap.swift */; };
+		B734A28722EE3C5000871424 /* UiControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734A28622EE3C5000871424 /* UiControlExtension.swift */; };
+		B734A28C22EE4BDA00871424 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734A28B22EE4BDA00871424 /* Colors.swift */; };
+		B734A29122EE5E1A00871424 /* RouteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734A29022EE5E1A00871424 /* RouteDetailViewController.swift */; };
+		B734A29322EE866500871424 /* RouteDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734A29222EE866500871424 /* RouteDetailPresenter.swift */; };
 		B7A12AE422ECF057000E9EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12AE322ECF057000E9EF6 /* AppDelegate.swift */; };
-		B7A12AE622ECF057000E9EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12AE522ECF057000E9EF6 /* ViewController.swift */; };
+		B7A12AE622ECF057000E9EF6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12AE522ECF057000E9EF6 /* BaseViewController.swift */; };
 		B7A12AE922ECF057000E9EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A12AE722ECF057000E9EF6 /* Main.storyboard */; };
 		B7A12AEC22ECF057000E9EF6 /* MiAguilaTransport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7A12AEA22ECF057000E9EF6 /* MiAguilaTransport.xcdatamodeld */; };
 		B7A12AEE22ECF058000E9EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A12AED22ECF058000E9EF6 /* Assets.xcassets */; };
 		B7A12AF122ECF058000E9EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A12AEF22ECF058000E9EF6 /* LaunchScreen.storyboard */; };
 		B7A12AFC22ECF058000E9EF6 /* MiAguilaTransportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12AFB22ECF058000E9EF6 /* MiAguilaTransportTests.swift */; };
 		B7A12B0722ECF058000E9EF6 /* MiAguilaTransportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B0622ECF058000E9EF6 /* MiAguilaTransportUITests.swift */; };
+		B7A12B1822ECF288000E9EF6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B1722ECF288000E9EF6 /* HomeViewController.swift */; };
+		B7A12B1E22ECF8DC000E9EF6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B1D22ECF8DC000E9EF6 /* Constants.swift */; };
+		B7A12B2122ECFE32000E9EF6 /* trips.json in Resources */ = {isa = PBXBuildFile; fileRef = B7A12B2022ECFE32000E9EF6 /* trips.json */; };
+		B7A12B2322ECFED4000E9EF6 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B2222ECFED4000E9EF6 /* Trip.swift */; };
+		B7A12B2522ED024F000E9EF6 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B2422ED024F000E9EF6 /* Country.swift */; };
+		B7A12B2722ED028E000E9EF6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B2622ED028E000E9EF6 /* City.swift */; };
+		B7A12B2922ED02B6000E9EF6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B2822ED02B6000E9EF6 /* Location.swift */; };
+		B7A12B2B22ED03F9000E9EF6 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B2A22ED03F9000E9EF6 /* Passenger.swift */; };
+		B7A12B2D22ED0450000E9EF6 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B2C22ED0450000E9EF6 /* Driver.swift */; };
+		B7A12B2F22ED0494000E9EF6 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B2E22ED0494000E9EF6 /* Car.swift */; };
+		B7A12B3322ED07C3000E9EF6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B3222ED07C3000E9EF6 /* HomePresenter.swift */; };
+		B7A12B3522ED0831000E9EF6 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B3422ED0831000E9EF6 /* HomeInteractor.swift */; };
+		B7A12B3822ED088E000E9EF6 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B3722ED088E000E9EF6 /* ServiceManager.swift */; };
+		B7A12B3E22ED0949000E9EF6 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B3D22ED0949000E9EF6 /* LocalManager.swift */; };
+		B7A12B4222ED2C5F000E9EF6 /* HomeSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B4122ED2C5F000E9EF6 /* HomeSheetViewController.swift */; };
+		B7A12B4822ED358D000E9EF6 /* HomeSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B4722ED358D000E9EF6 /* HomeSheetCell.swift */; };
+		B7A12B4B22ED48C5000E9EF6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A12B4A22ED48C5000E9EF6 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +64,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0014E9A6C8BF84D77B4A59F2 /* Pods_MiAguilaTransportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiAguilaTransportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C83F3BFD2FD7A5382F9F3E /* Pods-MiAguilaTransportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiAguilaTransportTests.debug.xcconfig"; path = "Target Support Files/Pods-MiAguilaTransportTests/Pods-MiAguilaTransportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FAD0C5943B69FA2C11D757B /* Pods-MiAguilaTransportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiAguilaTransportUITests.debug.xcconfig"; path = "Target Support Files/Pods-MiAguilaTransportUITests/Pods-MiAguilaTransportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73EAD610BC00D558810C1028 /* Pods-MiAguilaTransportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiAguilaTransportTests.release.xcconfig"; path = "Target Support Files/Pods-MiAguilaTransportTests/Pods-MiAguilaTransportTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C166DA2FAE6D27CFC4630AC /* Pods_MiAguilaTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiAguilaTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B23A4FAD642FDD556531DD /* Pods-MiAguilaTransport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiAguilaTransport.debug.xcconfig"; path = "Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport.debug.xcconfig"; sourceTree = "<group>"; };
+		B733D00122EE9AF6008BD4A5 /* RouteDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailInteractor.swift; sourceTree = "<group>"; };
+		B733D00522EEAC26008BD4A5 /* MarkerInfoCustomWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerInfoCustomWindow.xib; sourceTree = "<group>"; };
+		B733D00722EEB0AF008BD4A5 /* MarkerInfoCustomWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfoCustomWindow.swift; sourceTree = "<group>"; };
+		B734A28122ED5B3D00871424 /* MarketMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketMap.xib; sourceTree = "<group>"; };
+		B734A28322ED5B8B00871424 /* MarketMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketMap.swift; sourceTree = "<group>"; };
+		B734A28622EE3C5000871424 /* UiControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiControlExtension.swift; sourceTree = "<group>"; };
+		B734A28B22EE4BDA00871424 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B734A29022EE5E1A00871424 /* RouteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailViewController.swift; sourceTree = "<group>"; };
+		B734A29222EE866500871424 /* RouteDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailPresenter.swift; sourceTree = "<group>"; };
 		B7A12AE022ECF057000E9EF6 /* MiAguilaTransport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiAguilaTransport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A12AE322ECF057000E9EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7A12AE522ECF057000E9EF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7A12AE522ECF057000E9EF6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B7A12AE822ECF057000E9EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7A12AEB22ECF057000E9EF6 /* MiAguilaTransport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiAguilaTransport.xcdatamodel; sourceTree = "<group>"; };
 		B7A12AED22ECF058000E9EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +93,26 @@
 		B7A12B0222ECF058000E9EF6 /* MiAguilaTransportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiAguilaTransportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A12B0622ECF058000E9EF6 /* MiAguilaTransportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiAguilaTransportUITests.swift; sourceTree = "<group>"; };
 		B7A12B0822ECF058000E9EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A12B1722ECF288000E9EF6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B7A12B1D22ECF8DC000E9EF6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B7A12B2022ECFE32000E9EF6 /* trips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trips.json; sourceTree = "<group>"; };
+		B7A12B2222ECFED4000E9EF6 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		B7A12B2422ED024F000E9EF6 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		B7A12B2622ED028E000E9EF6 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		B7A12B2822ED02B6000E9EF6 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B7A12B2A22ED03F9000E9EF6 /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		B7A12B2C22ED0450000E9EF6 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		B7A12B2E22ED0494000E9EF6 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		B7A12B3222ED07C3000E9EF6 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		B7A12B3422ED0831000E9EF6 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		B7A12B3722ED088E000E9EF6 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		B7A12B3D22ED0949000E9EF6 /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
+		B7A12B4122ED2C5F000E9EF6 /* HomeSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSheetViewController.swift; sourceTree = "<group>"; };
+		B7A12B4722ED358D000E9EF6 /* HomeSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSheetCell.swift; sourceTree = "<group>"; };
+		B7A12B4A22ED48C5000E9EF6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F039F6AE7687FC9470AF9248 /* Pods_MiAguilaTransportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiAguilaTransportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77BC03C5FBA865530C0ABC5 /* Pods-MiAguilaTransport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiAguilaTransport.release.xcconfig"; path = "Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport.release.xcconfig"; sourceTree = "<group>"; };
+		F8E6C2D98C804E6793287895 /* Pods-MiAguilaTransportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiAguilaTransportUITests.release.xcconfig"; path = "Target Support Files/Pods-MiAguilaTransportUITests/Pods-MiAguilaTransportUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0684DB36C9EA7137983C426B /* Pods_MiAguilaTransport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6C62B32C3E315D1A04FD3B /* Pods_MiAguilaTransportTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +136,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006C116437B08477C9106688 /* Pods_MiAguilaTransportUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46B7D0D62E7B7954AF84DDE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99B23A4FAD642FDD556531DD /* Pods-MiAguilaTransport.debug.xcconfig */,
+				F77BC03C5FBA865530C0ABC5 /* Pods-MiAguilaTransport.release.xcconfig */,
+				42C83F3BFD2FD7A5382F9F3E /* Pods-MiAguilaTransportTests.debug.xcconfig */,
+				73EAD610BC00D558810C1028 /* Pods-MiAguilaTransportTests.release.xcconfig */,
+				5FAD0C5943B69FA2C11D757B /* Pods-MiAguilaTransportUITests.debug.xcconfig */,
+				F8E6C2D98C804E6793287895 /* Pods-MiAguilaTransportUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51AE661C7C257C28679523C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C166DA2FAE6D27CFC4630AC /* Pods_MiAguilaTransport.framework */,
+				0014E9A6C8BF84D77B4A59F2 /* Pods_MiAguilaTransportTests.framework */,
+				F039F6AE7687FC9470AF9248 /* Pods_MiAguilaTransportUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B734A28022ED5B2300871424 /* MarketMap */ = {
+			isa = PBXGroup;
+			children = (
+				B734A28122ED5B3D00871424 /* MarketMap.xib */,
+				B734A28322ED5B8B00871424 /* MarketMap.swift */,
+				B733D00522EEAC26008BD4A5 /* MarkerInfoCustomWindow.xib */,
+				B733D00722EEB0AF008BD4A5 /* MarkerInfoCustomWindow.swift */,
+			);
+			path = MarketMap;
+			sourceTree = "<group>";
+		};
+		B734A28D22EE589D00871424 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B734A29022EE5E1A00871424 /* RouteDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B734A28E22EE58A300871424 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B733D00122EE9AF6008BD4A5 /* RouteDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B734A28F22EE58AC00871424 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B734A29222EE866500871424 /* RouteDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		B7A12AD722ECF057000E9EF6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +208,8 @@
 				B7A12AFA22ECF058000E9EF6 /* MiAguilaTransportTests */,
 				B7A12B0522ECF058000E9EF6 /* MiAguilaTransportUITests */,
 				B7A12AE122ECF057000E9EF6 /* Products */,
+				46B7D0D62E7B7954AF84DDE1 /* Pods */,
+				51AE661C7C257C28679523C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +226,11 @@
 		B7A12AE222ECF057000E9EF6 /* MiAguilaTransport */ = {
 			isa = PBXGroup;
 			children = (
+				B7A12B4922ED48BB000E9EF6 /* Extension */,
+				B7A12B1C22ECF8C3000E9EF6 /* Data */,
+				B7A12B1422ECF218000E9EF6 /* Modules */,
 				B7A12AE322ECF057000E9EF6 /* AppDelegate.swift */,
-				B7A12AE522ECF057000E9EF6 /* ViewController.swift */,
+				B7A12AE522ECF057000E9EF6 /* BaseViewController.swift */,
 				B7A12AE722ECF057000E9EF6 /* Main.storyboard */,
 				B7A12AED22ECF058000E9EF6 /* Assets.xcassets */,
 				B7A12AEF22ECF058000E9EF6 /* LaunchScreen.storyboard */,
@@ -128,6 +258,162 @@
 			path = MiAguilaTransportUITests;
 			sourceTree = "<group>";
 		};
+		B7A12B1422ECF218000E9EF6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B1522ECF222000E9EF6 /* Home */,
+				B7A12B4022ED2C3D000E9EF6 /* HomeSheet */,
+				B7A12B1622ECF235000E9EF6 /* Route */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B7A12B1522ECF222000E9EF6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B3122ED079F000E9EF6 /* Interactor */,
+				B7A12B3022ED0798000E9EF6 /* Presenter */,
+				B7A12B1922ECF32B000E9EF6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B7A12B1622ECF235000E9EF6 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				B734A28F22EE58AC00871424 /* Presenter */,
+				B734A28E22EE58A300871424 /* Interactor */,
+				B734A28D22EE589D00871424 /* View */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		B7A12B1922ECF32B000E9EF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B734A28022ED5B2300871424 /* MarketMap */,
+				B7A12B1722ECF288000E9EF6 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7A12B1A22ECF338000E9EF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B2222ECFED4000E9EF6 /* Trip.swift */,
+				B7A12B2422ED024F000E9EF6 /* Country.swift */,
+				B7A12B2622ED028E000E9EF6 /* City.swift */,
+				B7A12B2822ED02B6000E9EF6 /* Location.swift */,
+				B7A12B2A22ED03F9000E9EF6 /* Passenger.swift */,
+				B7A12B2C22ED0450000E9EF6 /* Driver.swift */,
+				B7A12B2E22ED0494000E9EF6 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7A12B1C22ECF8C3000E9EF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B1A22ECF338000E9EF6 /* Model */,
+				B7A12B3C22ED0934000E9EF6 /* Local */,
+				B7A12B3622ED0876000E9EF6 /* Networking */,
+				B7A12B1D22ECF8DC000E9EF6 /* Constants.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B7A12B1F22ECFE0E000E9EF6 /* DataJson */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B2022ECFE32000E9EF6 /* trips.json */,
+			);
+			path = DataJson;
+			sourceTree = "<group>";
+		};
+		B7A12B3022ED0798000E9EF6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B3222ED07C3000E9EF6 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B7A12B3122ED079F000E9EF6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B3422ED0831000E9EF6 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B7A12B3622ED0876000E9EF6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B3722ED088E000E9EF6 /* ServiceManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B7A12B3C22ED0934000E9EF6 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B1F22ECFE0E000E9EF6 /* DataJson */,
+				B7A12B3D22ED0949000E9EF6 /* LocalManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		B7A12B4022ED2C3D000E9EF6 /* HomeSheet */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B4522ED2C77000E9EF6 /* Interactor */,
+				B7A12B4422ED2C6B000E9EF6 /* Presenter */,
+				B7A12B4322ED2C66000E9EF6 /* View */,
+			);
+			path = HomeSheet;
+			sourceTree = "<group>";
+		};
+		B7A12B4322ED2C66000E9EF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B4622ED3576000E9EF6 /* Cell */,
+				B7A12B4122ED2C5F000E9EF6 /* HomeSheetViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7A12B4422ED2C6B000E9EF6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B7A12B4522ED2C77000E9EF6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B7A12B4622ED3576000E9EF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B4722ED358D000E9EF6 /* HomeSheetCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B7A12B4922ED48BB000E9EF6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7A12B4A22ED48C5000E9EF6 /* Extensions.swift */,
+				B734A28622EE3C5000871424 /* UiControlExtension.swift */,
+				B734A28B22EE4BDA00871424 /* Colors.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +421,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7A12B0B22ECF058000E9EF6 /* Build configuration list for PBXNativeTarget "MiAguilaTransport" */;
 			buildPhases = (
+				790E9FDEBBE715B11EEEF804 /* [CP] Check Pods Manifest.lock */,
 				B7A12ADC22ECF057000E9EF6 /* Sources */,
 				B7A12ADD22ECF057000E9EF6 /* Frameworks */,
 				B7A12ADE22ECF057000E9EF6 /* Resources */,
+				9A5DA52E2AC3AAEB25647B90 /* [CP] Embed Pods Frameworks */,
+				8C2392C9608A01B5663526D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +441,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7A12B0E22ECF058000E9EF6 /* Build configuration list for PBXNativeTarget "MiAguilaTransportTests" */;
 			buildPhases = (
+				89F5F1996EB6801D12EC69FE /* [CP] Check Pods Manifest.lock */,
 				B7A12AF322ECF058000E9EF6 /* Sources */,
 				B7A12AF422ECF058000E9EF6 /* Frameworks */,
 				B7A12AF522ECF058000E9EF6 /* Resources */,
@@ -170,6 +460,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7A12B1122ECF058000E9EF6 /* Build configuration list for PBXNativeTarget "MiAguilaTransportUITests" */;
 			buildPhases = (
+				91AE300838191ACB9AFDAE8D /* [CP] Check Pods Manifest.lock */,
 				B7A12AFE22ECF058000E9EF6 /* Sources */,
 				B7A12AFF22ECF058000E9EF6 /* Frameworks */,
 				B7A12B0022ECF058000E9EF6 /* Resources */,
@@ -232,6 +523,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A12B2122ECFE32000E9EF6 /* trips.json in Resources */,
+				B734A28222ED5B3D00871424 /* MarketMap.xib in Resources */,
+				B733D00622EEAC26008BD4A5 /* MarkerInfoCustomWindow.xib in Resources */,
 				B7A12AF122ECF058000E9EF6 /* LaunchScreen.storyboard in Resources */,
 				B7A12AEE22ECF058000E9EF6 /* Assets.xcassets in Resources */,
 				B7A12AE922ECF057000E9EF6 /* Main.storyboard in Resources */,
@@ -254,14 +548,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		790E9FDEBBE715B11EEEF804 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiAguilaTransport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F5F1996EB6801D12EC69FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiAguilaTransportTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2392C9608A01B5663526D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91AE300838191ACB9AFDAE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiAguilaTransportUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5DA52E2AC3AAEB25647B90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiAguilaTransport/Pods-MiAguilaTransport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7A12ADC22ECF057000E9EF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A12AE622ECF057000E9EF6 /* ViewController.swift in Sources */,
+				B7A12B2D22ED0450000E9EF6 /* Driver.swift in Sources */,
+				B734A28C22EE4BDA00871424 /* Colors.swift in Sources */,
+				B7A12B2522ED024F000E9EF6 /* Country.swift in Sources */,
+				B7A12B1E22ECF8DC000E9EF6 /* Constants.swift in Sources */,
+				B7A12B3E22ED0949000E9EF6 /* LocalManager.swift in Sources */,
+				B7A12B4822ED358D000E9EF6 /* HomeSheetCell.swift in Sources */,
+				B7A12B4B22ED48C5000E9EF6 /* Extensions.swift in Sources */,
+				B7A12B2B22ED03F9000E9EF6 /* Passenger.swift in Sources */,
+				B7A12AE622ECF057000E9EF6 /* BaseViewController.swift in Sources */,
 				B7A12AE422ECF057000E9EF6 /* AppDelegate.swift in Sources */,
+				B734A28722EE3C5000871424 /* UiControlExtension.swift in Sources */,
+				B7A12B2922ED02B6000E9EF6 /* Location.swift in Sources */,
+				B733D00222EE9AF6008BD4A5 /* RouteDetailInteractor.swift in Sources */,
+				B7A12B2F22ED0494000E9EF6 /* Car.swift in Sources */,
+				B7A12B2322ECFED4000E9EF6 /* Trip.swift in Sources */,
+				B7A12B3322ED07C3000E9EF6 /* HomePresenter.swift in Sources */,
+				B733D00822EEB0AF008BD4A5 /* MarkerInfoCustomWindow.swift in Sources */,
+				B734A29322EE866500871424 /* RouteDetailPresenter.swift in Sources */,
 				B7A12AEC22ECF057000E9EF6 /* MiAguilaTransport.xcdatamodeld in Sources */,
+				B734A28422ED5B8B00871424 /* MarketMap.swift in Sources */,
+				B7A12B2722ED028E000E9EF6 /* City.swift in Sources */,
+				B7A12B1822ECF288000E9EF6 /* HomeViewController.swift in Sources */,
+				B7A12B4222ED2C5F000E9EF6 /* HomeSheetViewController.swift in Sources */,
+				B7A12B3522ED0831000E9EF6 /* HomeInteractor.swift in Sources */,
+				B734A29122EE5E1A00871424 /* RouteDetailViewController.swift in Sources */,
+				B7A12B3822ED088E000E9EF6 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,11 +854,13 @@
 		};
 		B7A12B0C22ECF058000E9EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B23A4FAD642FDD556531DD /* Pods-MiAguilaTransport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K25X85H3FB;
 				INFOPLIST_FILE = MiAguilaTransport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +874,13 @@
 		};
 		B7A12B0D22ECF058000E9EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77BC03C5FBA865530C0ABC5 /* Pods-MiAguilaTransport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K25X85H3FB;
 				INFOPLIST_FILE = MiAguilaTransport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +894,7 @@
 		};
 		B7A12B0F22ECF058000E9EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C83F3BFD2FD7A5382F9F3E /* Pods-MiAguilaTransportTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +916,7 @@
 		};
 		B7A12B1022ECF058000E9EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EAD610BC00D558810C1028 /* Pods-MiAguilaTransportTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +938,7 @@
 		};
 		B7A12B1222ECF058000E9EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FAD0C5943B69FA2C11D757B /* Pods-MiAguilaTransportUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +959,7 @@
 		};
 		B7A12B1322ECF058000E9EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E6C2D98C804E6793287895 /* Pods-MiAguilaTransportUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

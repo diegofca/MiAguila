@@ -7,7 +7,25 @@
 		<key>MiAguilaTransport.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>15</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B7A12ADF22ECF057000E9EF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7A12AF622ECF058000E9EF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7A12B0122ECF058000E9EF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
